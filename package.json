@@ -1,6 +1,6 @@
 {
   "name": "viewerjs-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript supported react wrapper for viewerjs.",
   "author": {
     "name": "Emil Zhai <TinyMins>",
