@@ -1,6 +1,6 @@
 {
   "name": "viewerjs-react",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React wrapper for viewerjs.",
   "author": "tinymins",
   "license": "MIT",
