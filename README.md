@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save viewerjs-react
+npm install --save viewerjs@^1.9.0 viewerjs-react
 ```
 
 ## Usage
