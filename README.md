@@ -15,15 +15,23 @@ npm install --save viewerjs-react
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'viewerjs-react'
+import RViewerJS from 'viewerjs-react'
 import 'viewerjs-react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <RViewerJS>
+      <img src="xxx" />
+    </RViewerJS>
   }
 }
 ```
+
+## Props
+
+### options
+
+Will passby to viewerjs. See [ViewerJS Options Document](https://github.com/fengyuanchen/viewerjs/blob/master/README.md#options).
 
 ## License
 
