@@ -17,7 +17,7 @@ export default class RViewerJS extends React.PureComponent<RViewerJSProps> {
     if (this.viewer) {
       this.viewer.destroy()
     }
-    this.viewer = new ViewerJS(el)
+    this.viewer = new ViewerJS(el, this.props.options)
   }
 
   public componentDidUpdate() {
