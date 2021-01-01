@@ -8,7 +8,7 @@ interface RViewerJSProps {
 }
 
 export default class RViewerJS extends React.PureComponent<RViewerJSProps> {
-  private viewer: ViewerJS
+  private viewer: ViewerJS | null = null
 
   private onRef = (el: HTMLDivElement | null) => {
     if (!el) {
@@ -18,6 +18,19 @@ export default class RViewerJS extends React.PureComponent<RViewerJSProps> {
       this.viewer.destroy()
     }
     this.viewer = new ViewerJS(el)
+  }
+
+  public componentDidUpdate() {
+    if (this.viewer) {
+      this.viewer.update()
+    }
+  }
+
+  public componentWillUnmount() {
+    if (this.viewer) {
+      this.viewer.destroy()
+    }
+    this.viewer = null
   }
 
   public render() {
