@@ -1,10 +1,31 @@
 {
   "name": "viewerjs-react",
   "version": "1.0.0",
-  "description": "React wrapper for viewerjs.",
-  "author": "tinymins",
+  "description": "Typescript supported react wrapper for viewerjs.",
+  "author": {
+    "name": "Emil Zhai <TinyMins>",
+    "url": "https://zhaiyiming.com/"
+  },
   "license": "MIT",
-  "repository": "tinymins/viewerjs-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinymins/viewerjs-react.git"
+  },
+  "keywords": [
+    "react-viewerjs",
+    "react",
+    "image",
+    "viewer",
+    "viewerjs",
+    "viewer.js",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "ts",
+    "front-end",
+    "web"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
