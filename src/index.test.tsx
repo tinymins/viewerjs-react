@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import RViewerJS from '.'
 
-describe('ExampleComponent', () => {
+describe('RViewerJS', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(RViewerJS).toBeTruthy()
   })
 })
